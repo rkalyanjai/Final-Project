@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8b95a3605c.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ASKedu</title>
+</head>
+
+<body style="overflow-x: hidden;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="position:sticky; top: 0; background-color: rgba(22, 34, 57, 0.95) !important; padding: 12px; z-index: 1000000;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home" style="font-size: 2.1rem;position: relative; left: 44px;"><span>A S K </span>edu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="position: absolute;right: 32px; font-size: 1.2rem;">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#course">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="video">
+            <video src="/images/course-video.mp4" autoplay muted loop="true"></video>
+        </div>
+        <div class="content">
+            <h3>GRADUATE SCHOOL OF MANAGEMENT</h3>
+            <h1 class="content-h1"><span>YOUR</span> CLASSROOM</h1>
+            <button type="submit" class="content submit-button"><a href="#features">DISCOVER MORE</a></button>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="my-container">
+            <div class="my-card">
+                <div class="my-box">
+                    <div class="my-content">
+                        <h2><i class="fas fa-pencil-alt"></i> All Courses</h2>
+                        <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus
+                        elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                        <a href="#course">More info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="my-card">
+                <div class="my-box">
+                    <div class="my-content">
+                        <h2><i class="fas fa-graduation-cap"></i> Virtual Class</h2>
+                        <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus
+                        elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                        <a href="#about">Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="my-card">
+                <div class="my-box">
+                    <div class="my-content">
+                        <h2><i class="fas fa-pencil-alt"></i> Real Meeting</h2>
+                        <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus
+                        elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
+                        <a href="#course">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="display-2 text-white text-center py-12"><span>ABOUT</span> US</h2>
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 lg:w-1/3">
+                        <div
+                            class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">BEST EDUCATION</h1>
+                            <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique qui maxime quia corporis facilis tenetur. Ab alias vitae delectus culpa!</p>
+                            <img src="/images/choose-us-image-01.png">
+                            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/3">
+                        <div
+                            class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">TOP MANAGEMENT</h1>
+                            <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut suscipit porro praesentium autem! Sunt facilis reiciendis sit dolor possimus, ab molestiae excepturi et cum?</p>
+                            <img src="/images/choose-us-image-02.png">
+                            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/3">
+                        <div
+                            class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                            <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">QUALITY MEETING</h1>
+                            <p class="leading-relaxed mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus asperiores laboriosam at, architecto voluptatem optio animi culpa voluptatibus natus ducimus.</p>
+                            <img src="/images/choose-us-image-03.png">
+                            <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
