@@ -209,7 +209,7 @@ span, .nav-link a:hover {
 #about {
     min-height: 100vh;
     background-color: rgba(22, 34, 57, 0.95);
-    background: url(/images/choosing-bg.jpg);
+    background: url(/images/choosing-bg.JPG);
     display: flex;
     flex-direction: column;
     justify-content: center;
